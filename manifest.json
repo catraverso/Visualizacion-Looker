@@ -1,9 +1,9 @@
 {
   "dataStudio": {
-    "name": "Test",
+    "name": "Opiniones de Productos",
     "logoUrl": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
-    "company": "Test",
-    "companyUrl": "https://test.com"
+    "company": "Tu Empresa",
+    "companyUrl": "https://tuempresa.com"
   },
   "components": {
     "visualization": "index.js"
