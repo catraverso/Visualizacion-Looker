@@ -1,3 +1,13 @@
+const style = document.createElement('link');
+style.rel = 'stylesheet';
+style.href = 'https://catraverso.github.io/Visualizacion-Looker/style.css'; // Cambia la URL si es necesario
+document.head.appendChild(style);
+
+const style = document.createElement('link');
+style.rel = 'stylesheet';
+style.href = 'https://catraverso.github.io/Visualizacion-Looker/style.css'; // Cambia si tu URL es diferente
+document.head.appendChild(style);
+
 const container = document.createElement('div');
 container.className = 'opinion-container';
 
