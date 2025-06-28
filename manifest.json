@@ -1,0 +1,11 @@
+{
+  "dataStudio": {
+    "name": "Opiniones de Productos",
+    "logoUrl": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "company": "Tu Empresa",
+    "companyUrl": "https://tuempresa.com"
+  },
+  "components": {
+    "visualization": "index.js"
+  }
+}

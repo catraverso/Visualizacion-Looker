@@ -1,0 +1,92 @@
+.opinion-container {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 24px;
+  max-width: 500px;
+  margin: auto;
+}
+.header {
+  background: #ffe600;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.fecha {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rating-num {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #0057b8;
+}
+.stars {
+  font-size: 1.3em;
+  color: #0057b8;
+}
+.star {
+  color: #0057b8;
+}
+.star.half:after {
+  content: '\\2605';
+  position: absolute;
+  color: #ccc;
+  width: 50%;
+  overflow: hidden;
+}
+.votos {
+  font-size: 1em;
+  color: #666;
+}
+.porcentaje {
+  color: #0057b8;
+  font-size: 1em;
+  margin-top: 8px;
+}
+.criterios {
+  margin: 16px 0;
+}
+.criterio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.fotos {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+.foto {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+.opiniones {
+  margin-top: 12px;
+}
+.opiniones h4 {
+  margin: 0 0 6px 0;
+  font-size: 1.1em;
+}
+.opiniones p {
+  font-size: 1em;
+  color: #222;
+}
+.resumen {
+  display: block;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 6px;
+}
